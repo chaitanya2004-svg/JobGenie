@@ -1,4 +1,5 @@
 💼 JobGenie — AI-Powered Job Recommendation System
+
 A smart, AI-driven recommendation system that matches candidates with suitable job listings based on their resume, skills, experience, and job descriptions using advanced NLP techniques.
 
 🚀 Features
@@ -27,20 +28,9 @@ Streamlit — Web application UI
 
 Git/GitHub — Version control
 
-📁 Project Structure
-bash
-Copy
-Edit
-jobgenie/
-├── data/           # Sample resumes and job listings
-├── models/         # Pretrained and fine-tuned models
-├── app/            # Streamlit frontend
-│   ├── main.py     # Streamlit app entry point
-│   └── utils.py    # Helper functions
-├── notebooks/      # Jupyter notebooks for exploration & development
-├── README.md       # Project documentation
-└── requirements.txt# Python dependencies
+
 🛠️ How It Works
+
 1️⃣ Input: User uploads a resume (PDF/text) or enters skills manually
 2️⃣ Preprocessing: Text cleaned, tokenized, embedded using Sentence-BERT
 3️⃣ Matching: Resumes & jobs compared via cosine similarity
